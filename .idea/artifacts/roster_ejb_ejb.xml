@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="ejb-jar" name="roster-ejb:ejb">
+    <output-path>$PROJECT_DIR$/persistence/roster/roster-ejb/target</output-path>
+    <root id="archive" name="roster-ejb.jar">
+      <element id="artifact" artifact-name="roster-ejb:ejb exploded" />
+    </root>
+  </artifact>
+</component>

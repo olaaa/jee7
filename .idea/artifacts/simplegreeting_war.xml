@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="simplegreeting:war">
+    <output-path>$PROJECT_DIR$/cdi/simplegreeting/target</output-path>
+    <root id="archive" name="simplegreeting.war">
+      <element id="artifact" artifact-name="simplegreeting:war exploded" />
+    </root>
+  </artifact>
+</component>

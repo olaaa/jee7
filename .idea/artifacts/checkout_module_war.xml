@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="checkout-module:war">
+    <output-path>$PROJECT_DIR$/web/jsf/checkout-module/target</output-path>
+    <root id="archive" name="checkout-module.war">
+      <element id="artifact" artifact-name="checkout-module:war exploded" />
+    </root>
+  </artifact>
+</component>

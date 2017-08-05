@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="simplemessage-ear:ear exploded">
+    <output-path>$PROJECT_DIR$/jms/simplemessage/simplemessage-ear/target/simplemessage-ear</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="simplemessage-ear/javaeeApplication/JavaEE" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/jms/simplemessage/simplemessage-ear/target/simplemessage-ear/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="dir-copy" path="$PROJECT_DIR$/jms/simplemessage/simplemessage-ear/src/main/application" />
+      <element id="archive" name="simplemessage-ejb.jar">
+        <element id="artifact" artifact-name="simplemessage-ejb:ejb exploded" />
+      </element>
+      <element id="archive" name="simplemessage-appclient-7.0.6.app-client">
+        <element id="module-output" name="simplemessage-appclient" />
+      </element>
+    </root>
+  </artifact>
+</component>

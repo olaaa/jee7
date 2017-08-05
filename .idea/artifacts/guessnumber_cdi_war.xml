@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="guessnumber-cdi:war">
+    <output-path>$PROJECT_DIR$/cdi/guessnumber-cdi/target</output-path>
+    <root id="archive" name="guessnumber-cdi.war">
+      <element id="artifact" artifact-name="guessnumber-cdi:war exploded" />
+    </root>
+  </artifact>
+</component>

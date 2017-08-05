@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ejb" name="clientmdbentity-ejb:ejb exploded">
+    <output-path>$PROJECT_DIR$/jms/clientmdbentity/clientmdbentity-ejb/target/clientmdbentity-ejb</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="clientmdbentity-ejb/ejb/EJB" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/jms/clientmdbentity/clientmdbentity-ejb/target/clientmdbentity-ejb/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="clientmdbentity-ejb" />
+    </root>
+  </artifact>
+</component>

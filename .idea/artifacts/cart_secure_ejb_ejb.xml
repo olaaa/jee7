@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="ejb-jar" name="cart-secure-ejb:ejb">
+    <output-path>$PROJECT_DIR$/security/cart-secure/cart-secure-ejb/target</output-path>
+    <root id="archive" name="cart-secure-ejb.jar">
+      <element id="artifact" artifact-name="cart-secure-ejb:ejb exploded" />
+    </root>
+  </artifact>
+</component>

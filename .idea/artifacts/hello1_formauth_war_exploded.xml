@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="hello1-formauth:war exploded">
+    <output-path>$PROJECT_DIR$/security/hello1-formauth/target/hello1-formauth</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="hello1-formauth" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/security/hello1-formauth/target/hello1-formauth/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="hello1-formauth/web/Web" />
+    </root>
+  </artifact>
+</component>

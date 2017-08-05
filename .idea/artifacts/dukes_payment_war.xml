@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="dukes-payment:war">
+    <output-path>$PROJECT_DIR$/case-studies/dukes-forest/dukes-payment/target</output-path>
+    <root id="archive" name="dukes-payment.war">
+      <element id="artifact" artifact-name="dukes-payment:war exploded" />
+    </root>
+  </artifact>
+</component>

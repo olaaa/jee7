@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="decorators:war">
+    <output-path>$PROJECT_DIR$/cdi/decorators/target</output-path>
+    <root id="archive" name="decorators.war">
+      <element id="artifact" artifact-name="decorators:war exploded" />
+    </root>
+  </artifact>
+</component>

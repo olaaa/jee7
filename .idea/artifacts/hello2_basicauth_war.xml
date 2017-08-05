@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="hello2-basicauth:war">
+    <output-path>$PROJECT_DIR$/security/hello2-basicauth/target</output-path>
+    <root id="archive" name="hello2-basicauth.war">
+      <element id="artifact" artifact-name="hello2-basicauth:war exploded" />
+    </root>
+  </artifact>
+</component>

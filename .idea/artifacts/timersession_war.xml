@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="timersession:war">
+    <output-path>$PROJECT_DIR$/ejb/timersession/target</output-path>
+    <root id="archive" name="timersession.war">
+      <element id="artifact" artifact-name="timersession:war exploded" />
+    </root>
+  </artifact>
+</component>

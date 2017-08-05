@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="guessnumber-jsf:war">
+    <output-path>$PROJECT_DIR$/web/jsf/guessnumber-jsf/target</output-path>
+    <root id="archive" name="guessnumber-jsf.war">
+      <element id="artifact" artifact-name="guessnumber-jsf:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="ejb-jar" name="simplemessage-ejb:ejb">
+    <output-path>$PROJECT_DIR$/jms/simplemessage/simplemessage-ejb/target</output-path>
+    <root id="archive" name="simplemessage-ejb.jar">
+      <element id="artifact" artifact-name="simplemessage-ejb:ejb exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="trading-ear:ear exploded">
+    <output-path>$PROJECT_DIR$/connectors/trading/trading-ear/target/trading-ear-7.0.6</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="trading-ear/javaeeApplication/JavaEE" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/connectors/trading/trading-ear/target/trading-ear-7.0.6/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="dir-copy" path="$PROJECT_DIR$/connectors/trading/trading-ear/src/main/application" />
+      <element id="archive" name="trading-war.war">
+        <element id="artifact" artifact-name="trading-war:war exploded" />
+      </element>
+      <element id="archive" name="trading-rar.rar">
+        <element id="module-output" name="trading-rar" />
+      </element>
+    </root>
+  </artifact>
+</component>

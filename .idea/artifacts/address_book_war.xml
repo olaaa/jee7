@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="address-book:war">
+    <output-path>$PROJECT_DIR$/persistence/address-book/target</output-path>
+    <root id="archive" name="address-book.war">
+      <element id="artifact" artifact-name="address-book:war exploded" />
+    </root>
+  </artifact>
+</component>

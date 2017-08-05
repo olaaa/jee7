@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="clientsessionmdb-ear:ear exploded">
+    <output-path>$PROJECT_DIR$/jms/clientsessionmdb/clientsessionmdb-ear/target/clientsessionmdb-ear</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="clientsessionmdb-ear/javaeeApplication/JavaEE" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/jms/clientsessionmdb/clientsessionmdb-ear/target/clientsessionmdb-ear/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="archive" name="clientsessionmdb-ejb-7.0.6.jar">
+        <element id="artifact" artifact-name="clientsessionmdb-ejb:ejb exploded" />
+      </element>
+      <element id="archive" name="clientsessionmdb-appclient-7.0.6.app-client">
+        <element id="module-output" name="clientsessionmdb-appclient" />
+      </element>
+    </root>
+  </artifact>
+</component>

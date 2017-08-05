@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="ajaxguessnumber:war exploded">
+    <output-path>$PROJECT_DIR$/web/jsf/ajaxguessnumber/target/ajaxguessnumber</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="ajaxguessnumber" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/web/jsf/ajaxguessnumber/target/ajaxguessnumber/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="ajaxguessnumber/web/Web" />
+    </root>
+  </artifact>
+</component>

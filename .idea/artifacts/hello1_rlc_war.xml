@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="hello1-rlc:war">
+    <output-path>$PROJECT_DIR$/web/jsf/hello1-rlc/target</output-path>
+    <root id="archive" name="hello1-rlc.war">
+      <element id="artifact" artifact-name="hello1-rlc:war exploded" />
+    </root>
+  </artifact>
+</component>

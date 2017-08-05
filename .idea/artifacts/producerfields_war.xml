@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="producerfields:war">
+    <output-path>$PROJECT_DIR$/cdi/producerfields/target</output-path>
+    <root id="archive" name="producerfields.war">
+      <element id="artifact" artifact-name="producerfields:war exploded" />
+    </root>
+  </artifact>
+</component>

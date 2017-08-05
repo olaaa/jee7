@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <directory url="file://$PROJECT_DIR$/archetypes/jaxrs-service-archetype/src/main/resources/archetype-resources" includeSubdirectories="true" />
+    </excludeFromCompile>
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ajaxguessnumber" />
+        <module name="archetype-resources" />
+        <module name="async-smtpd" />
+        <module name="async-war" />
+        <module name="asynchconsumer" />
+        <module name="billpayment" />
+        <module name="bookmarks" />
+        <module name="cart-appclient" />
+        <module name="cart-common" />
+        <module name="cart-ear" />
+        <module name="cart-ejb" />
+        <module name="cart-secure-appclient" />
+        <module name="cart-secure-common" />
+        <module name="cart-secure-ear" />
+        <module name="cart-secure-ejb" />
+        <module name="checkout-module" />
+        <module name="clientackconsumer" />
+        <module name="clientmdbentity-appclient" />
+        <module name="clientmdbentity-ear" />
+        <module name="clientmdbentity-ejb" />
+        <module name="clientsessionmdb-appclient" />
+        <module name="clientsessionmdb-ear" />
+        <module name="clientsessionmdb-ejb" />
+        <module name="compositecomponentexample" />
+        <module name="converter" />
+        <module name="converter-secure" />
+        <module name="counter" />
+        <module name="customer" />
+        <module name="decorators" />
+        <module name="dukeetf" />
+        <module name="dukeetf2" />
+        <module name="dukes-bookstore" />
+        <module name="dukes-payment" />
+        <module name="dukes-resources" />
+        <module name="dukes-shipment" />
+        <module name="dukes-store" />
+        <module name="dukes-tutoring-common" />
+        <module name="dukes-tutoring-war" />
+        <module name="durableconsumer" />
+        <module name="encoder" />
+        <module name="entities" />
+        <module name="events" />
+        <module name="fileupload" />
+        <module name="genericsupplier" />
+        <module name="guessnumber-cdi" />
+        <module name="guessnumber-jsf" />
+        <module name="hello" />
+        <module name="hello-appclient" />
+        <module name="hello-webclient" />
+        <module name="hello1" />
+        <module name="hello1-formauth" />
+        <module name="hello1-rlc" />
+        <module name="hello2" />
+        <module name="hello2-basicauth" />
+        <module name="helloservice" />
+        <module name="helloservice-war" />
+        <module name="interceptor" />
+        <module name="jaxrs-service-archetype" />
+        <module name="jobs" />
+        <module name="jsonpmodel" />
+        <module name="jsonpstreaming" />
+        <module name="messagebrowser" />
+        <module name="mood" />
+        <module name="order" />
+        <module name="phonebilling" />
+        <module name="producer" />
+        <module name="producerfields" />
+        <module name="producermethods" />
+        <module name="reservation" />
+        <module name="retailer" />
+        <module name="roster-appclient" />
+        <module name="roster-common" />
+        <module name="roster-ear" />
+        <module name="rsvp" />
+        <module name="sharedconsumer" />
+        <module name="shareddurableconsumer" />
+        <module name="simple-flow" />
+        <module name="simplegreeting" />
+        <module name="simplemessage-appclient" />
+        <module name="simplemessage-ear" />
+        <module name="simplemessage-ejb" />
+        <module name="standalone" />
+        <module name="synchconsumer" />
+        <module name="taskcreator" />
+        <module name="timersession" />
+        <module name="trading-ear" />
+        <module name="trading-eis" />
+        <module name="trading-rar" />
+        <module name="trading-war" />
+        <module name="traffic-ear" />
+        <module name="traffic-eis" />
+        <module name="traffic-ejb" />
+        <module name="traffic-rar" />
+        <module name="traffic-war" />
+        <module name="unsubscriber" />
+        <module name="vendor" />
+        <module name="webserverlog" />
+        <module name="websimplemessage" />
+        <module name="websocketbot" />
+      </profile>
+      <profile name="Annotation profile for roster-ejb" enabled="true">
+        <sourceOutputDir name="target/generated-sources/metamodel" />
+        <sourceTestOutputDir name="target/generated-sources/apt-test" />
+        <outputRelativeToContentRoot value="true" />
+        <option name="eclipselink.persistencexml" value="$PROJECT_DIR$/persistence/roster/roster-ejb/src/main/resources/META-INF/persistence.xml" />
+        <processor name="org.eclipse.persistence.internal.jpa.modelgen.CanonicalModelProcessor" />
+        <module name="roster-ejb" />
+      </profile>
+      <profile name="Annotation profile for javaeetutorial" enabled="true">
+        <sourceOutputDir name="target/generated-sources/metamodel" />
+        <sourceTestOutputDir name="target/generated-sources/apt-test" />
+        <outputRelativeToContentRoot value="true" />
+        <option name="eclipselink.persistencexml" value="$PROJECT_DIR$/persistence/address-book/src/main/resources/META-INF/persistence.xml" />
+        <processor name="org.eclipse.persistence.internal.jpa.modelgen.CanonicalModelProcessor" />
+        <module name="address-book" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="address-book" target="1.7" />
+      <module name="ajaxguessnumber" target="1.7" />
+      <module name="archetype-resources" target="1.7" />
+      <module name="archetypes" target="1.7" />
+      <module name="async" target="1.7" />
+      <module name="async-smtpd" target="1.7" />
+      <module name="async-war" target="1.7" />
+      <module name="asynchconsumer" target="1.7" />
+      <module name="batch" target="1.7" />
+      <module name="billpayment" target="1.7" />
+      <module name="bookmarks" target="1.7" />
+      <module name="cart" target="1.7" />
+      <module name="cart-appclient" target="1.7" />
+      <module name="cart-common" target="1.7" />
+      <module name="cart-ear" target="1.7" />
+      <module name="cart-ejb" target="1.7" />
+      <module name="cart-secure" target="1.7" />
+      <module name="cart-secure-appclient" target="1.7" />
+      <module name="cart-secure-common" target="1.7" />
+      <module name="cart-secure-ear" target="1.7" />
+      <module name="cart-secure-ejb" target="1.7" />
+      <module name="case-studies" target="1.7" />
+      <module name="cdi" target="1.7" />
+      <module name="checkout-module" target="1.7" />
+      <module name="clientackconsumer" target="1.7" />
+      <module name="clientmdbentity" target="1.7" />
+      <module name="clientmdbentity-appclient" target="1.7" />
+      <module name="clientmdbentity-ear" target="1.7" />
+      <module name="clientmdbentity-ejb" target="1.7" />
+      <module name="clientsessionmdb" target="1.7" />
+      <module name="clientsessionmdb-appclient" target="1.7" />
+      <module name="clientsessionmdb-ear" target="1.7" />
+      <module name="clientsessionmdb-ejb" target="1.7" />
+      <module name="compositecomponentexample" target="1.7" />
+      <module name="concurrency" target="1.7" />
+      <module name="connectors" target="1.7" />
+      <module name="converter" target="1.7" />
+      <module name="converter-secure" target="1.7" />
+      <module name="counter" target="1.7" />
+      <module name="customer" target="1.7" />
+      <module name="decorators" target="1.7" />
+      <module name="dukeetf" target="1.7" />
+      <module name="dukeetf2" target="1.7" />
+      <module name="dukes-bookstore" target="1.7" />
+      <module name="dukes-forest" target="1.7" />
+      <module name="dukes-payment" target="1.7" />
+      <module name="dukes-resources" target="1.7" />
+      <module name="dukes-shipment" target="1.7" />
+      <module name="dukes-store" target="1.7" />
+      <module name="dukes-tutoring" target="1.7" />
+      <module name="dukes-tutoring-common" target="1.7" />
+      <module name="dukes-tutoring-war" target="1.7" />
+      <module name="durableconsumer" target="1.7" />
+      <module name="durablesubscriptionexample" target="1.7" />
+      <module name="ejb" target="1.7" />
+      <module name="encoder" target="1.7" />
+      <module name="entities" target="1.7" />
+      <module name="events" target="1.7" />
+      <module name="fileupload" target="1.7" />
+      <module name="genericsupplier" target="1.7" />
+      <module name="guessnumber-cdi" target="1.7" />
+      <module name="guessnumber-jsf" target="1.7" />
+      <module name="hello" target="1.7" />
+      <module name="hello-appclient" target="1.7" />
+      <module name="hello-webclient" target="1.7" />
+      <module name="hello1" target="1.7" />
+      <module name="hello1-formauth" target="1.7" />
+      <module name="hello1-rlc" target="1.7" />
+      <module name="hello2" target="1.7" />
+      <module name="hello2-basicauth" target="1.7" />
+      <module name="helloservice" target="1.7" />
+      <module name="helloservice-war" target="1.7" />
+      <module name="interceptor" target="1.7" />
+      <module name="javaeetutorial" target="1.7" />
+      <module name="jaxrs" target="1.7" />
+      <module name="jaxrs-service-archetype" target="1.7" />
+      <module name="jaxws" target="1.7" />
+      <module name="jms" target="1.7" />
+      <module name="jobs" target="1.7" />
+      <module name="jsf" target="1.7" />
+      <module name="jsonp" target="1.7" />
+      <module name="jsonpmodel" target="1.7" />
+      <module name="jsonpstreaming" target="1.7" />
+      <module name="messagebrowser" target="1.7" />
+      <module name="mood" target="1.7" />
+      <module name="order" target="1.7" />
+      <module name="persistence" target="1.7" />
+      <module name="phonebilling" target="1.7" />
+      <module name="producer" target="1.7" />
+      <module name="producerfields" target="1.7" />
+      <module name="producermethods" target="1.7" />
+      <module name="reservation" target="1.7" />
+      <module name="retailer" target="1.7" />
+      <module name="roster" target="1.7" />
+      <module name="roster-appclient" target="1.7" />
+      <module name="roster-common" target="1.7" />
+      <module name="roster-ear" target="1.7" />
+      <module name="roster-ejb" target="1.7" />
+      <module name="rsvp" target="1.7" />
+      <module name="security" target="1.7" />
+      <module name="servlet" target="1.7" />
+      <module name="shared" target="1.7" />
+      <module name="sharedconsumer" target="1.7" />
+      <module name="shareddurableconsumer" target="1.7" />
+      <module name="simple" target="1.7" />
+      <module name="simple-flow" target="1.7" />
+      <module name="simplegreeting" target="1.7" />
+      <module name="simplemessage" target="1.7" />
+      <module name="simplemessage-appclient" target="1.7" />
+      <module name="simplemessage-ear" target="1.7" />
+      <module name="simplemessage-ejb" target="1.7" />
+      <module name="standalone" target="1.7" />
+      <module name="synchconsumer" target="1.7" />
+      <module name="taskcreator" target="1.7" />
+      <module name="timersession" target="1.7" />
+      <module name="trading" target="1.7" />
+      <module name="trading-ear" target="1.7" />
+      <module name="trading-eis" target="1.7" />
+      <module name="trading-rar" target="1.7" />
+      <module name="trading-war" target="1.7" />
+      <module name="traffic" target="1.7" />
+      <module name="traffic-ear" target="1.7" />
+      <module name="traffic-eis" target="1.7" />
+      <module name="traffic-ejb" target="1.7" />
+      <module name="traffic-rar" target="1.7" />
+      <module name="traffic-war" target="1.7" />
+      <module name="transactedexample" target="1.7" />
+      <module name="unsubscriber" target="1.7" />
+      <module name="vendor" target="1.7" />
+      <module name="web" target="1.7" />
+      <module name="webserverlog" target="1.7" />
+      <module name="websimplemessage" target="1.7" />
+      <module name="websocket" target="1.7" />
+      <module name="websocketbot" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

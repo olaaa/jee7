@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="roster-ear:ear exploded">
+    <output-path>$PROJECT_DIR$/persistence/roster/roster-ear/target/roster-ear</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="roster-ear/javaeeApplication/JavaEE" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/persistence/roster/roster-ear/target/roster-ear/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="dir-copy" path="$PROJECT_DIR$/persistence/roster/roster-ear/src/main/application" />
+      <element id="archive" name="roster-ejb-7.0.6.jar">
+        <element id="artifact" artifact-name="roster-ejb:ejb exploded" />
+      </element>
+      <element id="directory" name="lib">
+        <element id="archive" name="roster-common-7.0.6.jar">
+          <element id="module-output" name="roster-common" />
+        </element>
+      </element>
+      <element id="archive" name="roster-appclient-7.0.6.app-client">
+        <element id="module-output" name="roster-appclient" />
+      </element>
+    </root>
+  </artifact>
+</component>

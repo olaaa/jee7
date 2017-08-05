@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="ear" name="simplemessage-ear:ear">
+    <output-path>$PROJECT_DIR$/jms/simplemessage/simplemessage-ear/target</output-path>
+    <root id="archive" name="simplemessage-ear.ear">
+      <element id="artifact" artifact-name="simplemessage-ear:ear exploded" />
+    </root>
+  </artifact>
+</component>

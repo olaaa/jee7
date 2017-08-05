@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="ear" name="traffic-ear:ear">
+    <output-path>$PROJECT_DIR$/connectors/traffic/traffic-ear/target</output-path>
+    <root id="archive" name="traffic-ear-7.0.6.ear">
+      <element id="artifact" artifact-name="traffic-ear:ear exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="ejb-jar" name="clientmdbentity-ejb:ejb">
+    <output-path>$PROJECT_DIR$/jms/clientmdbentity/clientmdbentity-ejb/target</output-path>
+    <root id="archive" name="clientmdbentity-ejb.jar">
+      <element id="artifact" artifact-name="clientmdbentity-ejb:ejb exploded" />
+    </root>
+  </artifact>
+</component>

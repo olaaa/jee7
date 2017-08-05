@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ejb" name="cart-secure-ejb:ejb exploded">
+    <output-path>$PROJECT_DIR$/security/cart-secure/cart-secure-ejb/target/cart-secure-ejb</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="cart-secure-ejb/ejb/EJB" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/security/cart-secure/cart-secure-ejb/target/cart-secure-ejb/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="cart-secure-ejb" />
+    </root>
+  </artifact>
+</component>

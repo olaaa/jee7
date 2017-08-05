@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="ear" name="clientsessionmdb-ear:ear">
+    <output-path>$PROJECT_DIR$/jms/clientsessionmdb/clientsessionmdb-ear/target</output-path>
+    <root id="archive" name="clientsessionmdb-ear.ear">
+      <element id="artifact" artifact-name="clientsessionmdb-ear:ear exploded" />
+    </root>
+  </artifact>
+</component>

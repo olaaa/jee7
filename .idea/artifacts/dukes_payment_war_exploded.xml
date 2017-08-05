@@ -1,0 +1,27 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="dukes-payment:war exploded">
+    <output-path>$PROJECT_DIR$/case-studies/dukes-forest/dukes-payment/target/dukes-payment</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="dukes-payment" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="archive" name="events-7.0.6.jar">
+            <element id="module-output" name="events" />
+          </element>
+          <element id="archive" name="entities-7.0.6.jar">
+            <element id="module-output" name="entities" />
+          </element>
+          <element id="archive" name="dukes-resources-7.0.6.jar">
+            <element id="module-output" name="dukes-resources" />
+          </element>
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/case-studies/dukes-forest/dukes-payment/target/dukes-payment/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="dukes-payment/web/Web" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="ear" name="trading-ear:ear">
+    <output-path>$PROJECT_DIR$/connectors/trading/trading-ear/target</output-path>
+    <root id="archive" name="trading-ear-7.0.6.ear">
+      <element id="artifact" artifact-name="trading-ear:ear exploded" />
+    </root>
+  </artifact>
+</component>

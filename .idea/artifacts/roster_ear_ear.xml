@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="ear" name="roster-ear:ear">
+    <output-path>$PROJECT_DIR$/persistence/roster/roster-ear/target</output-path>
+    <root id="archive" name="roster-ear.ear">
+      <element id="artifact" artifact-name="roster-ear:ear exploded" />
+    </root>
+  </artifact>
+</component>

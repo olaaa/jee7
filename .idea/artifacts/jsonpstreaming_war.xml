@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jsonpstreaming:war">
+    <output-path>$PROJECT_DIR$/web/jsonp/jsonpstreaming/target</output-path>
+    <root id="archive" name="jsonpstreaming.war">
+      <element id="artifact" artifact-name="jsonpstreaming:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="ear" name="cart-secure-ear:ear">
+    <output-path>$PROJECT_DIR$/security/cart-secure/cart-secure-ear/target</output-path>
+    <root id="archive" name="cart-secure-ear.ear">
+      <element id="artifact" artifact-name="cart-secure-ear:ear exploded" />
+    </root>
+  </artifact>
+</component>

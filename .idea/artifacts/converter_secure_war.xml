@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="converter-secure:war">
+    <output-path>$PROJECT_DIR$/security/converter-secure/target</output-path>
+    <root id="archive" name="converter-secure.war">
+      <element id="artifact" artifact-name="converter-secure:war exploded" />
+    </root>
+  </artifact>
+</component>

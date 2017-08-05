@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ejb" name="helloservice:ejb exploded">
+    <output-path>$PROJECT_DIR$/ejb/helloservice/target/helloservice</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="helloservice/ejb/EJB" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/ejb/helloservice/target/helloservice/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="helloservice" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="hello1-formauth:war">
+    <output-path>$PROJECT_DIR$/security/hello1-formauth/target</output-path>
+    <root id="archive" name="hello1-formauth.war">
+      <element id="artifact" artifact-name="hello1-formauth:war exploded" />
+    </root>
+  </artifact>
+</component>

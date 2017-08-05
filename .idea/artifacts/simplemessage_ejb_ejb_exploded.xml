@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ejb" name="simplemessage-ejb:ejb exploded">
+    <output-path>$PROJECT_DIR$/jms/simplemessage/simplemessage-ejb/target/simplemessage-ejb</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="simplemessage-ejb/ejb/EJB" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/jms/simplemessage/simplemessage-ejb/target/simplemessage-ejb/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="simplemessage-ejb" />
+    </root>
+  </artifact>
+</component>

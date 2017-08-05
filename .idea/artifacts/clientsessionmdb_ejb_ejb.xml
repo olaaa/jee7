@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="ejb-jar" name="clientsessionmdb-ejb:ejb">
+    <output-path>$PROJECT_DIR$/jms/clientsessionmdb/clientsessionmdb-ejb/target</output-path>
+    <root id="archive" name="clientsessionmdb-ejb.jar">
+      <element id="artifact" artifact-name="clientsessionmdb-ejb:ejb exploded" />
+    </root>
+  </artifact>
+</component>

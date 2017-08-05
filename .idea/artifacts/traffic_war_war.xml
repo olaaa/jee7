@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="traffic-war:war">
+    <output-path>$PROJECT_DIR$/connectors/traffic/traffic-war/target</output-path>
+    <root id="archive" name="traffic-war.war">
+      <element id="artifact" artifact-name="traffic-war:war exploded" />
+    </root>
+  </artifact>
+</component>

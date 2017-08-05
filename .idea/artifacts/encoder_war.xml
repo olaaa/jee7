@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="encoder:war">
+    <output-path>$PROJECT_DIR$/cdi/encoder/target</output-path>
+    <root id="archive" name="encoder.war">
+      <element id="artifact" artifact-name="encoder:war exploded" />
+    </root>
+  </artifact>
+</component>

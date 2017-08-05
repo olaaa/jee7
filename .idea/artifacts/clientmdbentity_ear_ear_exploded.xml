@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="clientmdbentity-ear:ear exploded">
+    <output-path>$PROJECT_DIR$/jms/clientmdbentity/clientmdbentity-ear/target/clientmdbentity-ear</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="clientmdbentity-ear/javaeeApplication/JavaEE" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/jms/clientmdbentity/clientmdbentity-ear/target/clientmdbentity-ear/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="dir-copy" path="$PROJECT_DIR$/jms/clientmdbentity/clientmdbentity-ear/src/main/application" />
+    </root>
+  </artifact>
+</component>

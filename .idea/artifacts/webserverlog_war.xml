@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="webserverlog:war">
+    <output-path>$PROJECT_DIR$/batch/webserverlog/target</output-path>
+    <root id="archive" name="webserverlog.war">
+      <element id="artifact" artifact-name="webserverlog:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="websocketbot:war">
+    <output-path>$PROJECT_DIR$/web/websocket/websocketbot/target</output-path>
+    <root id="archive" name="websocketbot.war">
+      <element id="artifact" artifact-name="websocketbot:war exploded" />
+    </root>
+  </artifact>
+</component>

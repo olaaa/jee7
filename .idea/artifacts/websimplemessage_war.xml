@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="websimplemessage:war">
+    <output-path>$PROJECT_DIR$/jms/websimplemessage/target</output-path>
+    <root id="archive" name="websimplemessage.war">
+      <element id="artifact" artifact-name="websimplemessage:war exploded" />
+    </root>
+  </artifact>
+</component>

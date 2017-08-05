@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="archetype-resources:war">
+    <output-path>$PROJECT_DIR$/archetypes/jaxrs-service-archetype/src/main/resources/archetype-resources/target</output-path>
+    <root id="archive" name="olga.war">
+      <element id="artifact" artifact-name="archetype-resources:war exploded" />
+    </root>
+  </artifact>
+</component>
